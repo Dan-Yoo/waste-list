@@ -1,0 +1,20 @@
+.search-item-title {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.icon-container {
+  margin-right: 1rem;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .search-item {
+    flex-direction: column;
+  }
+  
+  .search-item-title {
+    margin-bottom: 0.5rem;
+  }
+}

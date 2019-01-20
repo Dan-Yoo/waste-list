@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  display: flex;
+}
+
+input {
+  flex: 1;
+  margin-right: 0.5rem;
+  padding: 5px;
+}
+
+ul {
+  margin: 0;
+}
+
+button {
+  background-color: #5a965f;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button img {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  align-items: stretch;
+}
+
+.container > * {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 100%;
+  }
+}

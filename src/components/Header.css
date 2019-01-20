@@ -1,0 +1,10 @@
+header {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  padding: 2rem 0;
+  margin: 1rem 0;
+  background-image: linear-gradient(to right, #3a5991 , #599361);
+}

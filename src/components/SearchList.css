@@ -1,0 +1,19 @@
+.search-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.search-item-title {
+  flex: 2;
+}
+
+.search-item-description {
+  flex: 3;
+}
+
+.fave-icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
